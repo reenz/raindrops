@@ -46,4 +46,8 @@ describe('Raindrops',() => {
     raindrops.numberToSound(105).should.be.equal('PlingPlangPlong');
   })
 
+  it("returns string representation for floating numbers",() => {
+    raindrops.numberToSound(5.5).should.be.equal('5.5');
+  })
+
 });
