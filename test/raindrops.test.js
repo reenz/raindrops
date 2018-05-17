@@ -33,4 +33,9 @@ describe('Raindrops',() => {
   it("returns PlingPlang if n is a factor of 3 and 5",() => {
     raindrops.numberToSound(30).should.be.equal('PlingPlang');
   })
+
+  it("returns PlingPlong if n is a factor of 3 and 7",() => {
+    raindrops.numberToSound(21).should.be.equal('PlingPlong');
+  })
+
 });
