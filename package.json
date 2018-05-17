@@ -1,0 +1,25 @@
+{
+  "name": "raindrops",
+  "version": "1.0.0",
+  "description": "Function that takes as its input a number and converts it to a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reenz/raindrops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reenz/raindrops/issues"
+  },
+  "homepage": "https://github.com/reenz/raindrops#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "nyc": "^11.8.0"
+  }
+}
