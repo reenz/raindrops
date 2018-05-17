@@ -17,4 +17,8 @@ describe('Raindrops',() => {
   it("returns plang if n is a factor of 5",() => {
     raindrops.numberToSound(10).should.be.equal('Plang');
   })
+
+  it("returns plong if n is a factor of 7",() => {
+    raindrops.numberToSound(14).should.be.equal('Plong');
+  })
 });
