@@ -42,4 +42,8 @@ describe('Raindrops',() => {
     raindrops.numberToSound(35).should.be.equal('PlangPlong');
   })
 
+  it("returns PlingPlangPlong if n is a factor of 3,5 and 7",() => {
+    raindrops.numberToSound(105).should.be.equal('PlingPlangPlong');
+  })
+
 });
