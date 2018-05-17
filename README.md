@@ -14,3 +14,12 @@ Examples:
 - 30's factors are 1, 2, 3, 5, 6, 10, 15, 30: this would be a 'PlingPlang'
 - 34 has four factors: 1, 2, 17, and 34: this would be '34'
 
+### Technologies
+
+* Node
+* Mocha/Chai
+
+### Approach
+
+As the task is very simple and small I will make a command line app in Javascript and will test it with Mocha and Chai.
+I will take one case at a time like output 'Pling' if the number has a factor of 3 then output 'Plang' if the number has a factor of 5 and so on and will follow TDD to accomplish the task.
