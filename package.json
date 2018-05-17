@@ -4,7 +4,7 @@
   "description": "Function that takes as its input a number and converts it to a string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc mocha --exit"
   },
   "repository": {
     "type": "git",
