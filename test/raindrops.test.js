@@ -38,4 +38,8 @@ describe('Raindrops',() => {
     raindrops.numberToSound(21).should.be.equal('PlingPlong');
   })
 
+  it("returns PlangPlong if n is a factor of 5 and 7",() => {
+    raindrops.numberToSound(35).should.be.equal('PlangPlong');
+  })
+
 });
