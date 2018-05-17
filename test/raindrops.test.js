@@ -50,4 +50,8 @@ describe('Raindrops',() => {
     raindrops.numberToSound(5.5).should.be.equal('5.5');
   })
 
+  it("raises error if nothing is passed in argument",() => {
+    should.throw(() => raindrops.numberToSound(), Error, /You entered undefined, must enter a number/);
+  })
+
 });
