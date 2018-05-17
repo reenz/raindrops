@@ -25,4 +25,8 @@ describe('Raindrops',() => {
   it("returns number if it is not a factor of 3,5 or 7",() => {
     raindrops.numberToSound(4).should.be.equal('4');
   })
+
+  it("raises error if passed argument is not a number",() => {
+    should.throw(() => raindrops.numberToSound('w'), Error, /You entered w, must enter a number/);
+  })
 });
