@@ -21,4 +21,8 @@ describe('Raindrops',() => {
   it("returns plong if n is a factor of 7",() => {
     raindrops.numberToSound(14).should.be.equal('Plong');
   })
+
+  it("returns number if it is not a factor of 3,5 or 7",() => {
+    raindrops.numberToSound(4).should.be.equal('4');
+  })
 });
