@@ -29,4 +29,8 @@ describe('Raindrops',() => {
   it("raises error if passed argument is not a number",() => {
     should.throw(() => raindrops.numberToSound('w'), Error, /You entered w, must enter a number/);
   })
+
+  it("returns PlingPlang if n is a factor of 3 and 5",() => {
+    raindrops.numberToSound(30).should.be.equal('PlingPlang');
+  })
 });
