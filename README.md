@@ -29,7 +29,7 @@ Examples:
 * To handle arguments other than number I made a private function validate that will raise an error if passed argument is not a number.
 
 ### Screenshot
-![terminalimg](Images/raindropcli.png)
+![terminalimg](Images/raindrops.png)
 
 ### How to use
 
