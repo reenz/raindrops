@@ -27,3 +27,13 @@ Examples:
 * I will take one case at a time like output 'Pling' if the number has a factor of 3 then output 'Plang' if the number has a factor of 5 and so on and will follow TDD to accomplish the task.
 * Used Travis CI so that it runs my tests every time I push to GitHub and can discover quickly if my commit broke something, and fix it.
 * To handle arguments other than number I made a private function validate that will raise an error if passed argument is not a number.
+
+### Screenshot
+![terminalimg](Images/raindropcli.png)
+
+### How to use
+
+* git clone`git@github.com:reenz/raindrops.git`
+* run `npm install` to download the dependencies
+* run `npm test` to run the test
+* run `node` , it will open node terminal and then follow steps in screenshot
