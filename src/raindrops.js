@@ -23,14 +23,11 @@ class Raindrops {
         return result;
       }
     }, result);
-    if (sound === '') {
+
+    if (sound.length === 0) {
       sound += n.toString();
     }
     return sound;
-    // let sound = ''; if (n % 3 === 0) {   sound += "Pling"; } if (n % 5 === 0) {
-    // sound += "Plang"; } if (n % 7 === 0) {   sound += "Plong"; } if (n % 9 === 0)
-    // {   sound += 'Plung'; } if (sound.length === 0) {   sound += n.toString(); }
-    // return sound;
   }
 
   _validate(n) {
