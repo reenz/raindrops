@@ -54,4 +54,8 @@ describe('Raindrops',() => {
     should.throw(() => raindrops.numberToSound(), Error, /You entered undefined, must enter a number/);
   })
 
+  it ("returns Plung if number is factor of 9", () => {
+    raindrops.numberToSound(9).should.be.equal('PlingPlung');
+  })
+
 });
